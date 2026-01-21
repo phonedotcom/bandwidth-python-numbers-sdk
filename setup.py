@@ -2,7 +2,7 @@ import os
 from setuptools import setup, find_packages
 
 NAME = "bandwidth-numbers-sdk"
-VERSION = os.environ['RELEASE_VERSION']
+VERSION = os.environ.get('RELEASE_VERSION', '1.1.1')
 
 with open('README.md', 'r', encoding='utf-8') as fh:
     long_description = fh.read()
