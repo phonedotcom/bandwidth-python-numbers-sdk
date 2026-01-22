@@ -3,6 +3,6 @@ chardet>=5.2.0
 future==1.0.0
 idna>=3.10
 requests~=2.32
-urllib3==1.26.20
+urllib3~=2.2
 six==1.16.0
 zipp~=3.20
